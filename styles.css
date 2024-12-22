@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page_wrapper {
+  padding: 0 3rem;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.page_wrapper header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.page_wrapper header ul {
+  color: black;
+  display: flex;
+}
+
+.page_wrapper header ul li {
+  padding-left: 2rem;
+  list-style: none;
+}
+
+.page_wrapper header ul li a {
+  text-decoration: none;
+  color: #444;
+  font-family: "Poiret One", serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.section_wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #ff7376;
+  height: 400px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.paragraph_wrapper {
+  width: 50%;
+  height: 100px;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.section_wrapper div p {
+  font-weight: 500;
+  justify-self: center;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-family: "Poiret One", serif;
+  color: white;
+  justify-self: center;
+  align-self: center;
+}
+
+.section_wrapper button {
+  background: none;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 1rem;
+  font-family: "Poiret One", serif;
+  color: black;
+  text-align: center;
+  font-weight: 1000;
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.heading_wrapper {
+  width: 50%;
+  font-family: "Poiret One", serif;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.heading_wrapper h1 {
+  align-self: center;
+}
+
+.image_wrapper {
+  display: flex;
+}
+
+.image_wrapper div {
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+  flex-wrap: nowrap;
+}
+
+.image_wrapper div img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
